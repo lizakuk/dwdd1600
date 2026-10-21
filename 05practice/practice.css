@@ -1,0 +1,15 @@
+body {background-color:blueviolet}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    margin: 0;
+    border: rgb(219, 103, 255) 5px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
