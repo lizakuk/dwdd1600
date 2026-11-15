@@ -1,0 +1,157 @@
+* {box-sizing: border-box;}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+}
+
+header, nav, main, footer {
+max-width: 800px;
+margin: 0 auto;
+}
+
+/* header stuff here */
+header {
+    padding: 1rem 2vw;
+}
+header span {
+    margin: 0;
+    color: #895772;
+    font-size: 2rem;
+    font-weight: 700;
+}
+header p {
+    margin: 0;
+    color: #895772;
+    font-size: 1.22rem;
+    letter-spacing: 2px;
+}
+
+
+
+/*SMALL SCREEN NAV STUFF*/
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 ;
+    }
+  nav ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #eee;
+  }
+  nav a {
+    display: block;
+    padding:12px 2vw;
+    font-weight: 500;
+    color: #8C501B;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+  }
+  nav li.active a {
+    background-color:#e9d9b8
+  }
+}
+
+
+
+/*LARGE SCREEN NAV STUFF*/
+@media only screen and (min-width: 601px) {  
+nav {
+    border-top: solid 1px #E0E6E6;
+    
+}
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 1.2rem 1rem .3rem 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #8C501B;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: solid 2px #fff;
+}
+
+nav .active a {
+    border-bottom: solid 2px #8b5022;
+}
+nav a:hover {
+    color: #000;
+}
+
+}
+
+
+/* navigation stuff here */
+
+
+/* main stuff here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #8b5022;
+    font-size: 2.5rem;
+    margin: .5rem 0 .8rem 0;
+    font-weight: 200;
+}
+main h2 {
+    color: #8b5022;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #333;
+    margin: 0 0 .8rem 0;
+    line-height: 150%;
+    font-size: 1.2rem;
+}
+main a {
+    color: #9c3335;
+}
+
+.angeloGallery {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.angeloGallery section {
+    flex-basis: 50%;
+    margin: 1rem 0;
+    
+}
+.angeloGallery span {
+    display: block;
+    text-align: center; 
+    font-weight: 700;
+    color: #895772;
+}
+.angeloGallery img {
+    width: 98%;
+    height: auto;
+}
+
+
+
+
+/* footer stuff here */
+footer {
+    border-top: solid #895772 1px;
+    text-align: center;
+    color: #8b5022;
+    font-size: .8rem;
+    padding: 1rem 0;
+    clear: both;
+}
+footer a {
+    color: #8b5022;
+}

@@ -1,0 +1,26 @@
+main p.act{
+    color: rgb(41, 255, 255)
+}
+.rom {
+    color: gold;
+}
+
+
+footer p{
+    color: blueviolet;
+    font-weight: bold;
+}
+main h1 {
+    color: purple;
+    font-weight: normal;
+    font-family: "Danfo", serif;
+}
+h2, h3 {
+    font-size: 32px;
+}
+h2 {
+    text-transform: uppercase;
+}
+h3 {
+    text-transform: uppercase;
+}
