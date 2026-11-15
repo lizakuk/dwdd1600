@@ -22,7 +22,6 @@ div.gallery {
 }
 div.gallery figure {
     margin: 0;
-    width: 30%;
 }
 div.gallery figcaption {
     text-align: center;
