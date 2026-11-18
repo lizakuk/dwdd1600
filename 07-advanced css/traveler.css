@@ -1,0 +1,196 @@
+body {
+      font-family: "Iceberg", sans-serif;
+     margin: 0;
+}
+
+/* header stuff here */
+header {
+    background-color: #f9ece5;
+    padding: 1rem 10px;
+}
+header span {
+    color: #014b43;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+/* small screen navigation */
+@media only screen and (max-width: 700px) {
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    display:block;
+    text-align:center;
+    padding: .8rem;
+    color:#b87b00;
+    text-decoration:none;
+    border-bottom: 1px solid #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav .active a {
+    background-color:#ffd6d1;
+    color: white;
+    background-image:linear-gradient(to bottom, #ffd6d1, #ffc0b0);
+}
+
+}/* end small screen navigation */
+
+/* LARGE screen navigation */
+@media only screen and (min-width: 701px) {
+nav {
+    background-color: #ffd6d1;
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #b87b00;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #014b43;
+    color: #ffd6d1;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+
+}/* end LARGE screen navigation */
+
+
+
+/* main stuff here*/
+.padding {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #720519;
+}
+main h2 {
+    color: #014b43;
+    margin-bottom: .2rem;
+}
+main p {
+    margin: 0;
+    color: #333;
+}
+main ol {
+    padding: .5rem 30px;
+    background-color: #f9ece5;
+}
+main dl dt {
+    color: #720519;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+main dl dd {
+    color: #014b43;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main ul li {
+    line-height: 225%;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color: #000;
+}
+
+main em {
+    font-weight: 300;
+}
+main address {
+    font-style: normal;
+    background-color: #f2b705;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #014b43;
+    width: 200px;
+}
+main a {
+    color: #014b43;
+}
+main a:hover {
+    color: rgb(180, 4, 18);
+}
+
+/* footer stuff here */
+footer {
+    background-color: #f9ece5;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #333;
+}
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+header, nav, main, footer {
+   max-width: 64rem;
+   margin: 0 auto;
+}
+
+/* Burger Images */
+
+/* prevent problems on different browser */
+*{box-sizing: border-box;}
+
+
+
+/* main image stuff here*/
+figure.wrapped {
+    margin: 0 0 0 10px;
+    width: 40%; 
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+/* gallery stuff here */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 10px;
+}
+div.gallery img {
+    transition: all 0.3s ease;
+}
+
+div.gallery img:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+div.gallery figure {
+    margin: 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #376259;
+}
