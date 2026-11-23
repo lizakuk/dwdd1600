@@ -120,6 +120,12 @@ main a {
     color: #9c3335;
 }
 
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+
 .angeloGallery {
     display: flex;
     flex-wrap: wrap;
